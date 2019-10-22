@@ -17,7 +17,7 @@ namespace ConsoleApp1
             Console.WriteLine("歡迎來到我的遊戲");
 
             Random rnd = new Random();
-            randomNum = rnd.Next(10);
+            randomNum = rnd.Next(100);
 
             while (true)
             {
